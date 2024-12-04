@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Varela+Round&display=swap');
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.MuiTypography-root {
+    font-family: "Varela Round", sans-serif !important;
+}
+
+
+.MuiTypography-h2.h2 {
+    font-size: 50px;
+}
+
+.MuiTypography-h3.h3 {
+    font-size: 45px;
+}
+
+.MuiTypography-h5.h5 {
+    font-size: 22px;
+}
+
+a.nav-link {
+    color: black;
+    margin-right: 15px;
+}
+
+a.nav-link:focus {
+    color: black;
+}
+
+a.nav-link:hover {
+    color: #41a9c4;
+}
+
+a.appointment-btn,
+button.appointment-btn {
+    background-color: #41a9c4;
+    border-radius: 50px;
+    padding: 8px 30px;
+    text-transform: none;
+}
+
+a.appointment-btn:hover,
+button.appointment-btn:hover {
+    background-color: #8cc744;
+    color: white;
+}
+
+
+button.social-icon {
+    color: #41a9c4;
+}
+
+button.social-icon:hover,
+button.social-icon-footer:hover {
+    background-color: #d9ecc1;
+}
+
+button.menu-btn {
+    border: 1px solid #41a9c4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0px 0px rgb(65 169 196 / 46%);
+}
+
+.MuiButtonBase-root.acc-item {
+    background-color: #41a9c4;
+    color: white;
+    border-radius: 4px;
+}
+
+.Mui-expanded.acc-item {
+    background-color: #8cc744;
+}
+
+.swiper-slide {
+    height: auto !important;
+}
+
+.MuiPaper-elevation.appointment-card,
+.MuiPaper-elevation.faq-card {
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MuiPaper-elevation.recent-post {
+    background-color: #e5f2ff;
+}
+
+
+
+@media (max-width: 1024px) {
+    .css-d50q3l-MuiTypography-root.h2 {
+        font-size: 45px;
+    }
+}
